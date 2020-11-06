@@ -18,15 +18,12 @@ img {
   height: auto;
 }
 
-.top-image img {
-  display: block;
-}
-
 h1.page-title {
   font-size: 3rem;
   letter-spacing: -.2px;
   line-height: 3.375rem;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 22.5px;
 }
 
 h2.section-title {
@@ -38,36 +35,23 @@ h2.section-title {
   color: #343F49;
 }
 
-.story.image-section::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,.5);
-  content: "";
-}
-
 .top-section .top-image {
   background-image: url('../images/bb_numbers_header.jpg');
   background-size: cover!important;
   background-attachment: fixed;
   background-position: 50%;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
+  height: 80vh;
+  width: 100vw;
+}
+
+.top-text > .wrap {
+  padding: 45px 45px 90px 45px;
 }
 
 .section-text {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.intro-text {
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 .top-title {
