@@ -38,11 +38,6 @@ h2.section-title {
   color: #343F49;
 }
 
-.story.image-section {
-  background: #000;
-  position: relative;
-}
-
 .story.image-section::before {
   position: absolute;
   top: 0;
@@ -55,21 +50,14 @@ h2.section-title {
   content: "";
 }
 
-.story.image-section .image-wrap {
+.top-section .top-image {
+  background-image: url('../images/bb_numbers_header.jpg');
   background-size: cover!important;
   background-attachment: fixed;
   background-position: 50%;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-}
-
-.story.top.image-section .image-wrap {
-  background-image: url('../images/bb_numbers_header.jpg');
-}
-
-.story.mid.image-section .image-wrap {
-  background-image: url('../images/city_view.jpg');
 }
 
 .section-text {
@@ -87,18 +75,6 @@ h2.section-title {
   line-height: 2rem;
   font-weight: 300;
   margin-bottom: 11.25px;
-}
-
-.top-section-text {
-  position: absolute;
-  color: #fff;
-  text-align: center;
-  bottom: 80px;
-  width: 100%;
-}
-
-.top-section-text p {
-  margin-bottom: 0;
 }
 
 .bar {
