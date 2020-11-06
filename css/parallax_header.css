@@ -47,6 +47,9 @@ h2.section-title {
 
 .top-text > .wrap {
   padding: 45px 45px 90px 45px;
+  width: 1230px;
+  margin-top: -200px;
+  background: #fff;
 }
 
 .section-text {
@@ -59,16 +62,18 @@ h2.section-title {
   line-height: 2rem;
   font-weight: 300;
   margin-bottom: 11.25px;
+  color: #5AC9E7;
 }
 
 .bar {
   height: 12px;
   width: 100px;
   background: #5AC9E7;
+  margin-bottom: 11.25px;
 }
 
 .wrap {
-  padding: 0px 15px 0px 15px;
+  padding: 0px 15px 90px 15px;
   width: 1170px;
   margin: 0 auto;
   height: 100%;
